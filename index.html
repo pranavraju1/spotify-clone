@@ -6,6 +6,11 @@
     <title>Spotify-clone</title>
     <link rel="stylesheet" href="style.css" />
     <link
+      rel="icon"
+      type="image/x-icon"
+      href="resources/icons8-spotify-48.png"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -21,19 +26,22 @@
   </head>
   <body>
     <div class="big-container d-flex">
-      <div class="left-div d-flex flex-column ">
+      <div class="left-div d-flex flex-column">
         <div class="Home-search">
           <div class="home">
             <a href="">
-              <i class="fa-solid fa-house" style="color: #ffffff;"></i>
-              <pre class="d-inline"> </pre>
+              <i class="fa-solid fa-house" style="color: #ffffff"></i>
+              <pre class="d-inline"></pre>
               Home
             </a>
           </div>
           <div class="search">
             <a href="">
-              <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-              <pre class="d-inline"> </pre>
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="color: #ffffff"
+              ></i>
+              <pre class="d-inline"></pre>
               Search
             </a>
           </div>
@@ -41,14 +49,14 @@
         <div class="lib d-flex flex-column">
           <div class="Yourlib d-flex justify-content-between">
             <div>
-              <i class="fa-solid fa-record-vinyl" style="color: #ffffff;"></i>
-              <pre  class="d-inline"> </pre>
+              <i class="fa-solid fa-record-vinyl" style="color: #ffffff"></i>
+              <pre class="d-inline"></pre>
               Your Library
             </div>
             <div>
-              <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
-              <pre  class="d-inline"> </pre>
-              <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+              <i class="fa-solid fa-plus" style="color: #ffffff"></i>
+              <pre class="d-inline"></pre>
+              <i class="fa-solid fa-arrow-right" style="color: #ffffff"></i>
             </div>
           </div>
           <div class="butns">
@@ -57,86 +65,762 @@
             <button class="btn">Albums</button>
             <button class="btn">Podcasts</button>
           </div>
+
           <div class="left-scroll d-flex flex-column">
             <div class="recents d-flex justify-content-between">
               <div>
-                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                <i
+                  class="fa-solid fa-magnifying-glass"
+                  style="color: #ffffff"
+                ></i>
               </div>
               <div>
                 Recents
-                <i class="fa-solid fa-caret-down" style="color: #fafafa;"></i>
+                <i class="fa-solid fa-caret-down" style="color: #fafafa"></i>
               </div>
             </div>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="eager"
+                src="https://i.scdn.co/image/ab67616d00004851f5a66f7c0126268d45cda1b6"
+                data-testid="cover-art-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB FqmFsMhuF4D0s35Z62Js Yn2Ei5QZn19gria6LjZj"
+              />
+              <p>
+                Namastute <br />
+                <font color="#a7a7a7">Album &#xb7; Seedhe Maut</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="eager"
+                src="https://i.scdn.co/image/ab67616d0000485152bdd056c5bbc5b5c16da27c"
+                data-testid="cover-art-image"
+                alt=""
+                class="mMx2LUixlnN_Fu45JpFB FqmFsMhuF4D0s35Z62Js Yn2Ei5QZn19gria6LjZj"
+              />
+              <p>
+                Kaale
+                <br />
+                <font color="#a7a7a7">Album &#xb7; Rebel 7</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02ccb8f637c8dd7422f4266bfa"
+                alt="Jaago"
+                class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                srcset="
+                  https://i.scdn.co/image/ab67616d00001e02ccb8f637c8dd7422f4266bfa 150w,
+                  https://i.scdn.co/image/ab67616d00001e02ccb8f637c8dd7422f4266bfa 300w,
+                  https://i.scdn.co/image/ab67616d0000b273ccb8f637c8dd7422f4266bfa 320w,
+                  https://i.scdn.co/image/ab67616d0000b273ccb8f637c8dd7422f4266bfa 640w
+                "
+                sizes="(min-width: 1280px) 232px, 192px"
+              />
+              <p>
+                Jaago <br />
+                <font color="#a7a7a7">Album &#xb7; Lifafa</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="eager"
+                src="https://mosaic.scdn.co/300/ab67616d00001e02696bb5555960c0886e644f27ab67616d00001e02a2d9aedd13e59443bf94f7b9ab67616d00001e02aedf6f748f73e59cf25bcf25ab67616d00001e02c5545f737b16ad5ee767b62a"
+                alt="i hate it here"
+                class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                srcset="
+                  https://mosaic.scdn.co/300/ab67616d00001e02696bb5555960c0886e644f27ab67616d00001e02a2d9aedd13e59443bf94f7b9ab67616d00001e02aedf6f748f73e59cf25bcf25ab67616d00001e02c5545f737b16ad5ee767b62a 150w,
+                  https://mosaic.scdn.co/300/ab67616d00001e02696bb5555960c0886e644f27ab67616d00001e02a2d9aedd13e59443bf94f7b9ab67616d00001e02aedf6f748f73e59cf25bcf25ab67616d00001e02c5545f737b16ad5ee767b62a 300w,
+                  https://mosaic.scdn.co/640/ab67616d00001e02696bb5555960c0886e644f27ab67616d00001e02a2d9aedd13e59443bf94f7b9ab67616d00001e02aedf6f748f73e59cf25bcf25ab67616d00001e02c5545f737b16ad5ee767b62a 320w,
+                  https://mosaic.scdn.co/640/ab67616d00001e02696bb5555960c0886e644f27ab67616d00001e02a2d9aedd13e59443bf94f7b9ab67616d00001e02aedf6f748f73e59cf25bcf25ab67616d00001e02c5545f737b16ad5ee767b62a 640w
+                "
+                sizes="(min-width: 1280px) 232px, 192px"
+              />
+              <p>
+                Bollywood Gold <br />
+                <font color="#a7a7a7">Playlist &#xb7; Adarsh</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="eager"
+                src="https://i.scdn.co/image/b01d89d740d3275d16082b5c5e597b12881bec26"
+                alt="Philosophize This!"
+                class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ YbDIZ84mS7tzHr1tgWE9 Yn2Ei5QZn19gria6LjZj"
+                srcset="
+                  https://i.scdn.co/image/b01d89d740d3275d16082b5c5e597b12881bec26 150w,
+                  https://i.scdn.co/image/b01d89d740d3275d16082b5c5e597b12881bec26 300w,
+                  https://i.scdn.co/image/f07f5f6476583502fac99edd5eb83e99dfaf4633 320w,
+                  https://i.scdn.co/image/f07f5f6476583502fac99edd5eb83e99dfaf4633 640w
+                "
+                sizes="(min-width: 1280px) 232px, 192px"
+              />
+              <p>
+                Pjilosophize This! <br />
+                <font color="#a7a7a7">Podcast &#xb7; Stephen West</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e"
+                alt="Anesthetize"
+                class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                srcset="
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 150w,
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 300w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 320w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 640w
+                "
+                sizes="(min-width: 1280px) 232px, 192px"
+              />
+              <p>
+                Anesthetize <br />
+                <font color="#a7a7a7">Album &#xb7; Porcupine Tree</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e"
+                alt="Anesthetize"
+                class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                srcset="
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 150w,
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 300w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 320w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 640w
+                "
+                sizes="(min-width: 1280px) 232px, 192px"
+              />
+              <p>
+                Anesthetize <br />
+                <font color="#a7a7a7">Album &#xb7; Porcupine Tree</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e"
+                alt="Anesthetize"
+                class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                srcset="
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 150w,
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 300w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 320w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 640w
+                "
+                sizes="(min-width: 1280px) 232px, 192px"
+              />
+              <p>
+                Anesthetize <br />
+                <font color="#a7a7a7">Album &#xb7; Porcupine Tree</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e"
+                alt="Anesthetize"
+                class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                srcset="
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 150w,
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 300w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 320w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 640w
+                "
+                sizes="(min-width: 1280px) 232px, 192px"
+              />
+              <p>
+                Anesthetize <br />
+                <font color="#a7a7a7">Album &#xb7; Porcupine Tree</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e"
+                alt="Anesthetize"
+                class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                srcset="
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 150w,
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 300w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 320w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 640w
+                "
+                sizes="(min-width: 1280px) 232px, 192px"
+              />
+              <p>
+                Anesthetize <br />
+                <font color="#a7a7a7">Album &#xb7; Porcupine Tree</font>
+              </p>
             </button>
             <button class="lib-card btn">
-              Liked songs
+              <img
+                aria-hidden="false"
+                draggable="false"
+                loading="lazy"
+                src="https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e"
+                alt="Anesthetize"
+                class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                srcset="
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 150w,
+                  https://i.scdn.co/image/ab67616d00001e02edbae126cb6647780b65165e 300w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 320w,
+                  https://i.scdn.co/image/ab67616d0000b273edbae126cb6647780b65165e 640w
+                "
+                sizes="(min-width: 1280px) 232px, 192px"
+              />
+              <p>
+                Anesthetize <br />
+                <font color="#a7a7a7">Album &#xb7; Porcupine Tree</font>
+              </p>
             </button>
-            <button class="lib-card btn">
-              Liked songs
-            </button>
-            <button class="lib-card btn">
-              Liked songs
-            </button>
-            <button class="lib-card btn">
-              Liked songs
-            </button>
-
           </div>
         </div>
       </div>
-      <div class="right-div">
+
+      <div class="right-div d-flex flex-column">
         <nav class="navi d-flex justify-content-between">
           <div class="left-btns">
             <button class="btn">
-              <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+              <i class="fa-solid fa-chevron-right" style="color: #ffffff"></i>
             </button>
-            <pre class="d-inline">  </pre>
+            <pre class="d-inline"></pre>
             <button class="btn">
-              <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+              <i class="fa-solid fa-chevron-right" style="color: #ffffff"></i>
             </button>
           </div>
-          <div class="right-btns ">
-            <button class="btn btn-light">Expplore Premium</button>
-            <button class="btn btn-light">install App</button>
-            <button class="btn btn-light">install App</button>
-
+          <div class="right-btns">
+            <button class="btn explore">Explore Premium</button>
+            <button class="btn install">
+              <i class="fa-regular fa-circle-down" style="color: #ffffff"></i>
+              install App
+            </button>
+            <button class="profile">
+              <i class="fa-regular fa-user" style="color: #ffffff"></i>
+            </button>
           </div>
         </nav>
+
+        <div class="right-scroll d-flex flex-column">
+          <div>
+            <h1>Hi Pranav!</h1>
+          </div>
+          <div class="fav-cards table table-borderless">
+            <table class="fcards">
+              <tr>
+                <td>
+                  <div class="fcard1">
+                    <img
+                      aria-hidden="false"
+                      draggable="false"
+                      loading="eager"
+                      src="https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png"
+                      alt="Liked Songs"
+                      class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                      srcset="
+                        https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png 150w,
+                        https://t.scdn.co/images/3099b3803ad9496896c43f22fe9be8c4.png 300w
+                      "
+                      sizes="(min-width: 1280px) 232px, 192px"
+                    />
+                    <font class="fcard-text">Liked Songs</font>
+                  </div>
+                </td>
+                <td>
+                  <div class="fcard1">
+                    <img
+                      aria-hidden="false"
+                      draggable="false"
+                      loading="lazy"
+                      src="https://i.scdn.co/image/ab676161000051741a17377fa816d625eb8e7435"
+                      alt="Gopi Sundar"
+                      class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ ta4ePOlmGXjBYPTd90lh Yn2Ei5QZn19gria6LjZj"
+                      srcset="
+                        https://i.scdn.co/image/ab676161000051741a17377fa816d625eb8e7435 160w,
+                        https://i.scdn.co/image/ab676161000051741a17377fa816d625eb8e7435 320w,
+                        https://i.scdn.co/image/ab6761610000e5eb1a17377fa816d625eb8e7435 320w,
+                        https://i.scdn.co/image/ab6761610000e5eb1a17377fa816d625eb8e7435 640w
+                      "
+                      sizes="(min-width: 1280px) 232px, 192px"
+                    />
+                    <font class="fcard-text">Gopi Sundar</font>
+                  </div>
+                </td>
+                <td>
+                  <div class="fcard1">
+                    <img
+                      aria-hidden="false"
+                      draggable="false"
+                      loading="lazy"
+                      src="https://i.scdn.co/image/ab67616d00001e02b7b544e5241b69574edc814e"
+                      alt="Lunch Break"
+                      class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                      srcset="
+                        https://i.scdn.co/image/ab67616d00001e02b7b544e5241b69574edc814e 150w,
+                        https://i.scdn.co/image/ab67616d00001e02b7b544e5241b69574edc814e 300w,
+                        https://i.scdn.co/image/ab67616d0000b273b7b544e5241b69574edc814e 320w,
+                        https://i.scdn.co/image/ab67616d0000b273b7b544e5241b69574edc814e 640w
+                      "
+                      sizes="(min-width: 1280px) 232px, 192px"
+                    />
+                    <font class="fcard-text">Lunch Break</font>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="fcard1">
+                    <img
+                      aria-hidden="false"
+                      draggable="false"
+                      loading="eager"
+                      src="https://i.scdn.co/image/ab67706f000000023b6edbdbd33b32857447a45a"
+                      alt="Trending Now Malayalam"
+                      class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                      sizes="(min-width: 1280px) 232px, 192px"
+                    />
+                    <font class="fcard-text">Trending Now Malayalam</font>
+                  </div>
+                </td>
+                <td>
+                  <div class="fcard1">
+                    <img
+                      aria-hidden="false"
+                      draggable="false"
+                      loading="eager"
+                      src="https://i.scdn.co/image/ab67706f000000027c20ded96b8ae90b913df2d5"
+                      alt="Malayalam Chill Mix"
+                      class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                      sizes="(min-width: 1280px) 232px, 192px"
+                    />
+                    <font class="fcard-text">Malayalam Chill Mix</font>
+                  </div>
+                </td>
+                <td>
+                  <div class="fcard1">
+                    <img
+                      aria-hidden="false"
+                      draggable="false"
+                      loading="eager"
+                      src="https://mosaic.scdn.co/300/ab67616d00001e022c1576bf13263140f4d45081ab67616d00001e0256aab60d1e44827e72999ac9ab67616d00001e0286c714c1faccb32766cfa5b1ab67616d00001e02b2904778ea4395c827b12f1d"
+                      alt="Malayalam Hits 2010 - 2020"
+                      class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                      srcset="
+                        https://mosaic.scdn.co/300/ab67616d00001e022c1576bf13263140f4d45081ab67616d00001e0256aab60d1e44827e72999ac9ab67616d00001e0286c714c1faccb32766cfa5b1ab67616d00001e02b2904778ea4395c827b12f1d 150w,
+                        https://mosaic.scdn.co/300/ab67616d00001e022c1576bf13263140f4d45081ab67616d00001e0256aab60d1e44827e72999ac9ab67616d00001e0286c714c1faccb32766cfa5b1ab67616d00001e02b2904778ea4395c827b12f1d 300w,
+                        https://mosaic.scdn.co/640/ab67616d00001e022c1576bf13263140f4d45081ab67616d00001e0256aab60d1e44827e72999ac9ab67616d00001e0286c714c1faccb32766cfa5b1ab67616d00001e02b2904778ea4395c827b12f1d 320w,
+                        https://mosaic.scdn.co/640/ab67616d00001e022c1576bf13263140f4d45081ab67616d00001e0256aab60d1e44827e72999ac9ab67616d00001e0286c714c1faccb32766cfa5b1ab67616d00001e02b2904778ea4395c827b12f1d 640w
+                      "
+                      sizes="(min-width: 1280px) 232px, 192px"
+                    />
+                    <font class="fcard-text">Malayalam Hits 2010 - 2020</font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="made d-flex justify-content-between">
+            <div>
+              <h2>Made For Pranav</h2>
+            </div>
+            <div>
+              <a href="">show all</a>
+            </div>
+          </div>
+          <div class="my-cards d-flex flex-row justify-content-between">
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+          </div>
+          <div class="made d-flex justify-content-between">
+            <div>
+              <h2>Made For Pranav</h2>
+            </div>
+            <div>
+              <a href="">show all</a>
+            </div>
+          </div>
+          <div class="my-cards d-flex flex-row justify-content-between">
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+          </div>
+          <div class="made d-flex justify-content-between">
+            <div>
+              <h2>Made For Pranav</h2>
+            </div>
+            <div>
+              <a href="">show all</a>
+            </div>
+          </div>
+          <div class="my-cards d-flex flex-row justify-content-between">
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+            <div class="card1 d-flex flex-column">
+              <div class="card1-div1">
+                <img
+                  aria-hidden="false"
+                  draggable="false"
+                  loading="eager"
+                  src="https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebb19af0ea736c6228d6eb539c/1/en-GB/default"
+                  alt="Daily Mix 1"
+                  class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj"
+                  sizes="(min-width: 1280px) 232px, 192px"
+                />
+              </div>
+              <div>
+                <h3>Daily Mix 1</h3>
+              </div>
+              <div>
+                <p class="fw-bold">A.R. Rahman,Pritam</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="player">
-
-    </div>
+    <div class="player"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

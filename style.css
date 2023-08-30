@@ -2,7 +2,7 @@
 .right-div{
   height: 90vh;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex: 4;
   background: black;
@@ -67,6 +67,9 @@
   font-weight: bold;
 }
 /* the left scroll begins */
+.recents{
+  min-height: 30px;
+}
 .left-scroll{
   /* border: 2px solid greenyellow; */
   height: 100%;
@@ -80,16 +83,28 @@
 }
 .left-scroll>button{
   color: white;
-  min-height: 60px;
+  min-height: 100px;
+  /* border: 2px solid greenyellow; */
   /* by giving min-height the div wont change its size */
   box-sizing: border-box;
   font-weight: bold;
+  display: flex;
+
 }
+.left-scroll>button>img{
+  height: 100%;
+}
+.left-scroll>button>p{
+  margin-left: 20px;
+  text-align: start;
+  padding: 15px;
+}
+
 /* left scroll ends */
 
-/* right scroll begins */
+/* right navigation*/
 .navi{
-  border: 2px solid yellow ;
+  /* border: 2px solid yellow ; */
   background-color: transparent;
   height: 8vh;
   width: 100%;
@@ -104,12 +119,86 @@
   height: 50px;
   width: 50px;
 }
-.navi.righ-btns>button{
-  border-radius: 50% !important;
+.navi>.right-btns>button{
+  border-radius: 100px !important;
+  font-weight: bold !important;
+  margin-right: 10px;
+  height: 50px;
+}
+.explore{
+  color: black;
+  background-color: white !important;
+}
+.install{
+  background-color: #121212 !important;
+  color: white !important;
+}
+.profile{
+  background-color: #121212 !important;
+  border: none;
+  width: 50px;
+}
+/* navi ends */
+
+/* right scroll begins */
+.right-scroll{
+  height: 100%;
+  overflow-y:scroll;
+  color: white;
+  padding: 30px;
+  /* border: 5px solid pink; */
+  background-color: #121212;
+}
+.fav-cards{
+  height: 300px;
+}
+.fcards{
+  color: white;
+  width: 100%;
+
+}
+.fcard1{
+  height: 150px;
+  /* border: 3px solid ; */
+  display: flex;
+  align-items: center;
+  background-color: #121212;
+  margin: 10px;
+
+}
+.fcard1>img{
+  height: 100%;
+}
+.fcard-text{
+  font-weight: bold;
+  margin-left: 60px;
+  font-size: 30px;
+}
+.made{
+  margin-top: 50px !important;
+  margin-bottom: 30px !important;
 }
 
-
-
+.made>div>a{
+  font-weight: bold;
+  color: #aeaeae !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+.my-cards{
+  /* border: 3px solid white; */
+  height: 30vh;
+}
+.my-cards>.card1>div>img{
+  height: 100%;
+}
+.card1-div1{
+  height: 70%;
+  margin-bottom: 10px;
+}
+.card1>div>p{
+  color: #9f9f9f;
+}
 
 
 
