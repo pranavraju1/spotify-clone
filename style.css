@@ -162,7 +162,7 @@
   /* border: 3px solid ; */
   display: flex;
   align-items: center;
-  background-color: #121212;
+  background-color: #2b2930;
   margin: 10px;
 
 }
@@ -187,7 +187,12 @@
 }
 .my-cards{
   /* border: 3px solid white; */
-  height: 30vh;
+  height: 35vh;
+}
+.card1{
+  background-color: #2b2930;
+  border-radius: 5%;
+  overflow: hidden;
 }
 .my-cards>.card1>div>img{
   height: 100%;
@@ -199,13 +204,23 @@
 .card1>div>p{
   color: #9f9f9f;
 }
+/* right scroll done */
 
+.lib-card:hover,.butns>button:hover,.fcard1:hover,.card1:hover{
+background-color: #7d7d7d49;
+}
+.fcard1:hover,.card1:hover{
+  cursor: pointer;
+}
 
 
 
 .player{
   border: 3px solid greenyellow;
-  background-color: purple;
+  background-color: black;
   position: sticky;
   height: 110px;
+}
+audio{
+  width: 70%;
 }
