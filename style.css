@@ -2,7 +2,7 @@
 .right-div{
   height: 90vh;
   width: 100%;
-  /* border: 2px solid red; */
+  border: 2px solid blue;
   display: flex;
   flex: 4;
   background: black;
@@ -11,7 +11,7 @@
 {
   height: 90vh;
   width: 100%;
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
   flex: 1;
   background: black;
@@ -172,16 +172,14 @@
 .fcard-text{
   font-weight: bold;
   margin-left: 60px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 
 .play-btn{
-  margin-left: 130px;
+  margin-left: auto;
   height: 70% !important;
-  background-color: rgb(30, 215, 96);
   z-index: 1;
-  border-radius: 50%;
   display: none;
 }
 .play-btn1{
@@ -189,10 +187,8 @@
   height: 80px;
   width: 80px;
   position: absolute;
-  background-color: rgb(30, 215, 96);
-  margin-left:150px ;
-  margin-top:150px ;
-  border-radius: 50%;
+  margin-left:90px ;
+  margin-top:90px ;
   display: none;
 }
 .made{
@@ -241,6 +237,37 @@ background-color: #7d7d7d49;
 .card1:hover .play-btn1{
   display: block;
 }
+
+/* playlist */
+.pop{
+  /* border: 3px solid white; */
+  height: 40%;
+  background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%);
+}
+.pop-cover{
+  margin-top: 60px;
+}
+.pop-text{
+  margin-top: 120px;
+  /* border: 3px solid pink; */
+  height: 200px;
+  width: 100%;
+  color: white;
+}
+.pop1{
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0px;
+  margin: 0px;
+}
+.pop2{
+  font-size: 80px;
+  font-weight: 700;
+  padding: 0px;
+  margin: 0px;
+}
+/* playlist */
+
 
 .player{
   /* border: 3px solid greenyellow; */
