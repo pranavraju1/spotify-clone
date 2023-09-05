@@ -2,7 +2,7 @@
   background-color: black;
 }
 .right-div{
-  height: 90vh;
+  height: 95vh;
   width: 100%;
   /* border: 2px solid blue; */
   display: flex;
@@ -207,11 +207,7 @@
   margin-bottom: 30px !important;
 }
 
-.poop{
-  height: 139% !important;
-  width: 40%;
-  margin-left: -32px;
-}
+
 .playlist-link{
   text-decoration: none;
   color: white;
@@ -264,7 +260,7 @@ img:hover,i:hover,svg:hover{
 
 /* playlist */
 .right2-scroll{
-  height: 89%;
+  height: 100%;
   overflow-y:scroll;
   color: white;
   /* padding: 30px; */
@@ -374,7 +370,4 @@ img:hover,i:hover,svg:hover{
   flex-shrink: 0;
   border-radius: 2.5px;
   background: #535353;
-}
-.audioo{
-
 }
