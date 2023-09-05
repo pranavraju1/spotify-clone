@@ -1,0 +1,35 @@
+ <div class="right-div d-flex flex-column">
+        <div class="pop d-flex flex-row">
+          <div class="pop-cover">
+            <img src="resources/스크린샷 2021-03-16 오후 4.04 2.png" alt="">
+          </div>
+          <div class="pop-text">
+            <p class="pop1">PLAYLIST</p>
+            <p class="pop2">Pop Right Now</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit </p>
+            <p><b>Spotify</b>&#xb7;860,305 likes&#xb7;100 songs, 5 hr 5 min</p>
+          </div>
+        </div>
+        <div class="symbols d-flex flex-row align-items-center">
+          <div>
+            <img class="symbol-play" src="resources/thumb_play.svg" alt="">
+          </div>
+          <div>
+            <img src="resources/heart.svg" alt="">
+          </div>
+          <div>
+            <img src="resources/more_big.svg" alt="">
+          </div>
+        </div>
+        <div>
+          <div class="contain-item d-flex flex-column">
+            <div class="heads"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+
+          </div>
+        </div>
+      </div>
