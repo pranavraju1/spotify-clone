@@ -1,17 +1,19 @@
-
+.big-container{
+  background-color: black;
+}
 .right-div{
   height: 90vh;
   width: 100%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display: flex;
   flex: 4;
   background: black;
 }
 .left-div
 {
-  height: 90vh;
+  height: 90%;
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex: 1;
   background: black;
@@ -106,7 +108,7 @@
 .navi{
   /* border: 2px solid yellow ; */
   background-color: transparent;
-  height: 8vh;
+  height: 10%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -143,12 +145,13 @@
 
 /* right scroll begins */
 .right-scroll{
-  height: 100%;
+  height: 89%;
   overflow-y:scroll;
   color: white;
   padding: 30px;
   /* border: 5px solid pink; */
   background-color: #121212;
+  border-radius: 10px;
 }
 .fav-cards{
   height: 300px;
@@ -166,6 +169,7 @@
   background-color: #2b2930;
   margin: 10px;
   position: relative;
+  overflow: hidden;
 
 }
 .fcard1>img{
@@ -203,6 +207,15 @@
   margin-bottom: 30px !important;
 }
 
+.poop{
+  height: 139% !important;
+  width: 40%;
+  margin-left: -32px;
+}
+.playlist-link{
+  text-decoration: none;
+  color: white;
+}
 .made>div>a{
   font-weight: bold;
   color: #aeaeae !important;
@@ -245,18 +258,19 @@ background-color: #7d7d7d49;
 .card1:hover .play-btn1{
   display: block;
 }
-img:hover,i:hover{
+img:hover,i:hover,svg:hover{
   cursor: pointer;
 }
 
 /* playlist */
 .right2-scroll{
-  height: 100%;
+  height: 89%;
   overflow-y:scroll;
   color: white;
   /* padding: 30px; */
   /* border: 5px solid pink; */
   background-color: #121212;
+  border-radius: 10px;
 }
 .pop{
   /* border: 3px solid white; */
@@ -325,18 +339,42 @@ img:hover,i:hover{
   /* border: 3px solid greenyellow; */
   background-color: black;
   position: sticky;
-  height: 110px;
-}
-.play-icons>svg{
-  background-color: white;
-}
-audio{
-  flex-basis: 0;
-  height: 100%;
   width: 100%;
+  height: 110px;
+  padding-left: 20px;
+  padding-right: 60px;
+  overflow: hidden;
+}
+.sang{
+  color: white;
+  gap: 17px;
+}
+.play-icons{
+  color: white;
+}
+.audio2{
+  gap: 10px;
+}
+.audio1{
+  gap: 17px;
+  align-items: center;
+}
+.bar1{
+  margin-top: 10px;
+  width: 511px;
+  height: 5px; 
+  flex-shrink: 0;
+  border-radius: 2.5px;
+  background: #C4C4C4;
+}
+.bar2{
+  margin-top: 10px;
+  width: 50px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 2.5px;
+  background: #535353;
 }
 .audioo{
-  width: 50%;
-  height: 100%;
-  padding-bottom: 25px;
+
 }
