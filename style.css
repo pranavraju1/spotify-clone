@@ -145,7 +145,7 @@
 
 /* right scroll begins */
 .right-scroll{
-  height: 89%;
+  height: 100%;
   overflow-y:scroll;
   color: white;
   padding: 30px;
